@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,10 @@
 		EF8EE71D21AEA8B90023B0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8EE71C21AEA8B90023B0F1 /* Assets.xcassets */; };
 		EF8EE72021AEA8B90023B0F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8EE71E21AEA8B90023B0F1 /* Main.storyboard */; };
 		EF8EE72321AEA8B90023B0F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8EE72221AEA8B90023B0F1 /* main.m */; };
+		EF8EE72C21AEABEB0023B0F1 /* MSPASystemInfoTableViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8EE72B21AEABEB0023B0F1 /* MSPASystemInfoTableViewRow.m */; };
+		EF8EE73621AEB01B0023B0F1 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8EE72E21AEB01A0023B0F1 /* ALView+PureLayout.m */; };
+		EF8EE73721AEB01B0023B0F1 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8EE73121AEB01A0023B0F1 /* NSArray+PureLayout.m */; };
+		EF8EE73821AEB01B0023B0F1 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8EE73521AEB01B0023B0F1 /* NSLayoutConstraint+PureLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,17 @@
 		EF8EE72121AEA8B90023B0F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF8EE72221AEA8B90023B0F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF8EE72421AEA8B90023B0F1 /* OS_12_Outline_Row.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OS_12_Outline_Row.entitlements; sourceTree = "<group>"; };
+		EF8EE72A21AEABEB0023B0F1 /* MSPASystemInfoTableViewRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSPASystemInfoTableViewRow.h; path = Archive/MSPASystemInfoTableViewRow.h; sourceTree = "<group>"; };
+		EF8EE72B21AEABEB0023B0F1 /* MSPASystemInfoTableViewRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSPASystemInfoTableViewRow.m; path = Archive/MSPASystemInfoTableViewRow.m; sourceTree = "<group>"; };
+		EF8EE72D21AEB01A0023B0F1 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		EF8EE72E21AEB01A0023B0F1 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		EF8EE72F21AEB01A0023B0F1 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		EF8EE73021AEB01A0023B0F1 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		EF8EE73121AEB01A0023B0F1 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		EF8EE73221AEB01A0023B0F1 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		EF8EE73321AEB01A0023B0F1 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		EF8EE73421AEB01A0023B0F1 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		EF8EE73521AEB01B0023B0F1 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +72,17 @@
 		EF8EE71521AEA8B40023B0F1 /* OS 12 Outline Row */ = {
 			isa = PBXGroup;
 			children = (
+				EF8EE72A21AEABEB0023B0F1 /* MSPASystemInfoTableViewRow.h */,
+				EF8EE72B21AEABEB0023B0F1 /* MSPASystemInfoTableViewRow.m */,
+				EF8EE73221AEB01A0023B0F1 /* ALView+PureLayout.h */,
+				EF8EE72E21AEB01A0023B0F1 /* ALView+PureLayout.m */,
+				EF8EE73321AEB01A0023B0F1 /* NSArray+PureLayout.h */,
+				EF8EE73121AEB01A0023B0F1 /* NSArray+PureLayout.m */,
+				EF8EE72F21AEB01A0023B0F1 /* NSLayoutConstraint+PureLayout.h */,
+				EF8EE73521AEB01B0023B0F1 /* NSLayoutConstraint+PureLayout.m */,
+				EF8EE72D21AEB01A0023B0F1 /* PureLayout.h */,
+				EF8EE73421AEB01A0023B0F1 /* PureLayout+Internal.h */,
+				EF8EE73021AEB01A0023B0F1 /* PureLayoutDefines.h */,
 				EF8EE71621AEA8B40023B0F1 /* AppDelegate.h */,
 				EF8EE71721AEA8B40023B0F1 /* AppDelegate.m */,
 				EF8EE71921AEA8B40023B0F1 /* ViewController.h */,
@@ -101,11 +127,13 @@
 				TargetAttributes = {
 					EF8EE71221AEA8B40023B0F1 = {
 						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = YT3GCGK3Z7;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = EF8EE70E21AEA8B40023B0F1 /* Build configuration list for PBXProject "OS 12 Outline Row" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -139,8 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8EE73821AEB01B0023B0F1 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				EF8EE72C21AEABEB0023B0F1 /* MSPASystemInfoTableViewRow.m in Sources */,
 				EF8EE71B21AEA8B40023B0F1 /* ViewController.m in Sources */,
 				EF8EE72321AEA8B90023B0F1 /* main.m in Sources */,
+				EF8EE73621AEB01B0023B0F1 /* ALView+PureLayout.m in Sources */,
+				EF8EE73721AEB01B0023B0F1 /* NSArray+PureLayout.m in Sources */,
 				EF8EE71821AEA8B40023B0F1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,10 +311,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = YT3GCGK3Z7;
 				INFOPLIST_FILE = "OS 12 Outline Row/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.beanywhere.OS-12-Outline-Row";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -297,10 +327,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = YT3GCGK3Z7;
 				INFOPLIST_FILE = "OS 12 Outline Row/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.beanywhere.OS-12-Outline-Row";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
